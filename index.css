@@ -26,6 +26,9 @@ a{
   height: 50px;
   width: 100%;
 }
+.address {
+  cursor: pointer;
+}
 .border{
   border: 1.5px solid transparent;
 }
