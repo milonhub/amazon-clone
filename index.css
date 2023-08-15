@@ -1,0 +1,263 @@
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+  width: 110px;
+  height: 50px;
+}
+.logo{
+  background-image: url("../images/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+.address-first{
+  margin-left: 15px;
+  color: #cccccc;
+  font-size: .85rem;
+}
+.address-second{
+  display: flex;
+  font-size: 1rem;
+}
+.address-second i{
+  margin-right: 3px;
+}
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: pink;
+
+}
+.search-select{
+  background-color: #f3f3f3;
+  width: 50px;
+  border-top-left-radius: 4px;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+}
+.search-input{
+  width: 100%;
+  border: none;
+
+}
+.search-icon{
+  width: 45px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background-color: #febd68;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #0f1111;
+}
+.nav-flag{
+  padding: 16px 10px;
+}
+.nav-flag span{
+  margin-left: 3px;
+  font-weight: 400;
+}
+.font p span{
+  font-size: .7rem;
+}
+.font p{
+  font-size: .85rem;
+  font-weight: 700;
+}
+.nav-cart i{
+  font-size: 30px;
+  
+}
+.nav-cart{
+  font-weight: 700;
+  font-size: .85rem;
+  display: flex;
+}
+.nav-cart p{
+  padding-top: 16px;
+  margin-left: 2px;
+}
+.panel{
+  height: 40px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly
+}
+
+.panel-ops a{
+  text-decoration: none;
+  color: white;
+} 
+.panel-ops ul li{
+
+  list-style-type: none;
+  float:left;
+  margin-right: 15px;
+}
+.panel-ops{
+  width: 70%;
+}
+.panel-deal a{
+ text-decoration: none;
+ color: white;
+}
+.hero{
+  height: 300px;
+  width: 100%;
+  position: relative;
+ 
+}
+.hero img{
+  height: 100%;
+  width: 100%;
+}
+.hero-mes{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 10%;
+  justify-content: center;
+  
+}
+.hero-mes p{
+  padding: 4px;
+  font-size: 11px;
+  text-align: center;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  
+  justify-content: space-evenly;
+  background-color: #f3f3f3;
+}
+
+.box{
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 350px;
+  background-color: white;
+  
+}
+
+.img-item{
+  
+  width: 100%;
+  height: 85%;
+  box-sizing: border-box;
+
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.box h3,
+span{
+ padding: 5px;
+}
+.box span a{
+  text-decoration: none;
+}
+.box h3{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.footer-top{
+  width: 100%;
+  height:  30px;
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.footer-middle{
+  background-color: #0f1111;
+  height: 350px;
+}
+.part1 ul li{
+  list-style-type: none;
+}
+
+.container-grid{
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  align-items: center;
+  height: 80%;
+  
+  
+
+}
+ 
+.container-grid ul{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.part1{
+  margin-left: 120px;
+  padding-top: 25px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  color: white;
+  
+}
+
+.footer-bottom{
+  background-color: #0f1111;
+  color: white;
+  
+  text-align: center;
+  
+}
+.border-white{
+  border: 1px solid white;
+}
+.footer-logo{
+  background-image: url("../images/amazon_logo.png");
+  background-size: cover;
+  margin-left: 47%;
+  width: 110px;
+  height: 50px;
+}
+.pages{
+  justify-content: space-between;
+  display: block;
+  word-spacing: normal;
+}
